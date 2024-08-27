@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diploma.Domain", "Diploma.Domain\Diploma.Domain.csproj", "{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Tests", "0 - Tests", "{AE2CBFA7-89AD-4846-81F4-B74924643140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Data", "1 - Data", "{A81C26F5-56CD-4849-9590-1D3AEB84292A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Logic", "2 - Logic", "{6FF6A966-BBE7-417C-9579-BA463370160C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{D963A471-9AE4-4123-9843-DF97310FC785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diploma.Instance", "Diploma.Instance\Diploma.Instance.csproj", "{C08C4278-A3F9-4692-948F-B2622443FBDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Solution Items", "4 - Solution Items", "{D454C44D-B19A-4B26-9702-94E57D9E12D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{1DA98608-33FF-489C-80C8-BB911D151BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diploma.DTO", "Diploma.DTO\Diploma.DTO.csproj", "{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diploma.Logic", "Diploma.Logic\Diploma.Logic.csproj", "{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08C4278-A3F9-4692-948F-B2622443FBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08C4278-A3F9-4692-948F-B2622443FBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08C4278-A3F9-4692-948F-B2622443FBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08C4278-A3F9-4692-948F-B2622443FBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A709151-BFAB-4CC8-92A0-DCC5ACF4E4E4} = {A81C26F5-56CD-4849-9590-1D3AEB84292A}
+		{C08C4278-A3F9-4692-948F-B2622443FBDB} = {D963A471-9AE4-4123-9843-DF97310FC785}
+		{FFF8E90F-0F25-4555-AC68-5931B3B7DF4E} = {1DA98608-33FF-489C-80C8-BB911D151BD6}
+		{079B70E7-AEC2-4A34-A9F4-5134FBD9F90C} = {6FF6A966-BBE7-417C-9579-BA463370160C}
+	EndGlobalSection
+EndGlobal

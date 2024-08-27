@@ -1,0 +1,6 @@
+@Diploma.Instance_HostAddress = http://localhost:5072
+
+GET {{Diploma.Instance_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

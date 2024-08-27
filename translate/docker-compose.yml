@@ -1,0 +1,8 @@
+services:
+#translate config
+  translate:
+    image: libretranslate/libretranslate
+    ports:
+      - "5005:5000"
+    environment:
+      - LT_LOAD_ONLY=en,ru
